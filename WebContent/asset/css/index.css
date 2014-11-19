@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+	margin: 0px;
+	width: 640px;
+}
+
+img {
+	padding: 0px;
+	margin: 0px;
+}
+
+#titlebar {
+	width: 640px;
+	position: fixed;
+	background-image: url(source/menufill.jpg);
+	background-repeat: repeat-x;
+}
+
+#space {
+	height: 70px;
+}
+
+#content {	
+	display: none;
+	position: fixed;
+	width: 640px;
+	height: 100%;
+}
+
+#content > #menuarea {
+	padding : 0; 
+	margin : 0;
+	width: 70%;
+	height: 100%;
+	background-image: url(source/contentbackground.jpg);
+}
+
+#content > #menuarea > div {
+	width: 100%;
+	height: 70px;
+	display: table;
+}
+
+#content > #menuarea > div > a {
+
+	width :	150px;
+	font-size :	40px;
+	font-family: "Nanum Gothic", sans-serif;
+
+	color: black;
+	display:table-cell; 
+	text-align:center; 
+	vertical-align:middle;
+	text-decoration : none;
+	
+}
+
+#service {
+	width: 640px;
+}
