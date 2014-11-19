@@ -2,28 +2,29 @@
 <html>
 	<head>
 		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<link href="index.css" type="text/css" rel="stylesheet">
-		<script src="jquery-1.9.1.min.js"></script>
-		<script src="index.js"></script>
+		<!-- css -->
+		<link href="asset/css/index.css" type="text/css" rel="stylesheet">
+		<link href="asset/css/jquery.mobile-1.4.5.min.css" type="text/css" rel="stylesheet">
+		<!-- script -->
+		<script src="asset/js/jquery-1.9.1.min.js"></script>
+		<script src="asset/js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="asset/js/index.js"></script>
 	</head>
 	<body>
 		<div id="titlebar">
-			<img id="button" src="source/menubutton.jpg"></img>
+			<img id="button" src="asset/img/menubutton.jpg"></img>
 		</div>
-		<div id="space"></div>
 		<div id="content">
-			<div id="menuarea">
-				<div><a class="menu" href="#">이번주 예배 순서</a></div>
-				<div><a class="menu" href="#">장석 청년부 광고</a></div>
-				<div><a class="menu" href="#">섬기는 이들</a></div>
-				<div><a class="menu" href="#">목사님 칼럼</a></div>
-				<div><a class="menu" href="#">[지기세움학교]</a></div>
-				<div><a class="menu" href="#">Contect Us</a></div>
-			</div>
+			<ul id="menuarea">
+        		<li class="active"><a href="#home" class="contentLink">Home </a></li>
+        		<li><a href="#home" class="contentLink">About </a></li>
+        		<li><a href="#home" class="contentLink">Portfolio </a></li>
+        		<li><a href="#home" class="contentLink">Contact </a></li>
+    		</ul>
 		</div>
 
 		<div id="service">
-			<img name="mainimg" src="source/main.jpg" onClick="javascript:chgimg();">	
+			<img name="mainimg" src="asset/img/main.jpg" onClick="javascript:chgimg();">	
 		</div>
 	</body>
 </html>
